@@ -1,23 +1,26 @@
 package hierarchy_figure;
 
-public class Сircle extends Figure {
-
-    private double radius;
-
-    public Сircle(double radius) {
+public class Circle extends Figure {
+    private final double radius;
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     @Override
-    public void calculateSquare() {
-        double square = Math.PI * (radius * radius);
-        setSquare(square);
+    public double square() {
+        return  square = Math.PI * (radius * radius);
     }
 
     @Override
-    public double calculatePerimeter() {
-        double perimeter = 2 * Math.PI * radius;
-        setPerimeter(perimeter);
-        return perimeter;
+    public double perimeter() {
+        return perimeter = 2 * Math.PI * radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "square=" + square +
+                ", perimeter=" + perimeter +
+                '}';
     }
 }
