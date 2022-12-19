@@ -2,6 +2,7 @@ package hierarchy_figure;
 
 public class Circle extends Figure {
     private final double radius;
+
     public Circle(double radius) {
         this.radius = radius;
     }

@@ -10,6 +10,7 @@ public abstract class Figure {
     public double square() {
         return square();
     }
+
     public double perimeter() {
         return perimeter();
     }

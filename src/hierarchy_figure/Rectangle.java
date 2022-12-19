@@ -18,7 +18,6 @@ public class Rectangle extends Figure {
     public double perimeter() {
         return perimeter = a + b * 2;
     }
-
     @Override
     public String toString() {
         return "Rectangle{" +

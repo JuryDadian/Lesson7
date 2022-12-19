@@ -17,7 +17,6 @@ public class Triangle extends Figure {
     public double square() {
         return square = base * h / 2;
     }
-
     @Override
     public double perimeter() {
         return perimeter = a + b + base;
