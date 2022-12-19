@@ -1,3 +1,5 @@
+package hierarchy_figure;
+
 import hierarchy_figure.Circle;
 import hierarchy_figure.Figure;
 import hierarchy_figure.Rectangle;
